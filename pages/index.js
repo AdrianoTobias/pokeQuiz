@@ -42,19 +42,6 @@ export default function Home() {
         <title>
           {db.title}
         </title>
-        <meta property="og:locale" content="pt_BR" />
-
-        <meta property="og:url" content="https://www.meusite.com.br/ola-mundo" />
-
-        <meta property="og:title" content="PokéQuiz #AluraQuiz" />
-        <meta property="og:site_name" content="PokéQuiz" />
-
-        <meta property="og:description" content="Desenvolvimento durante a imersão React Next.js da Alura" />
-
-        <meta property="og:image" content="https://ultimatodobacon.com/wp-content/uploads/2019/02/Pokemon-Movie-20-I-Choose-You-Misty-Brock-620x330.jpg" />
-        <meta property="og:image:type" content="image/jpg" />
-        <meta property="og:image:width" content="620" />
-        <meta property="og:image:height" content="330" />
       </Head>
       <QuizContainer>
         <QuizLogo quizTitle={db.title} />
