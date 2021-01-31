@@ -107,11 +107,10 @@ export default function Home() {
 
             <ul>
               {db.external.map((linkExterno) => {
+                const regex = /^(?:https?:\/\/)?([\da-z-]+)\.([\da-z-]+)(?:[/\w .-]*)*\/?$/mg;
                 const [projectName, githubUser] = linkExterno
-                  .replace(/\//g, '')
-                  .replace('https:', '')
-                  .replace('.vercel.app', '')
-                  .split('.');
+                  .replace(regex, '$1,$2')
+                  .split(',');
 
                 return (
                   <li key={linkExterno}>
