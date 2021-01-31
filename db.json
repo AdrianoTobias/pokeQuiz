@@ -1,0 +1,77 @@
+{
+  "bg": "https://ultimatodobacon.com/wp-content/uploads/2019/02/Pokemon-Movie-20-I-Choose-You-Misty-Brock-620x330.jpg",
+  "title": "PokéQuiz",
+  "description": "Será que você está pronto para ser um mestre Pokémon?",
+  "questions": [
+    {
+      "image": "https://media.giphy.com/media/idKFx1AUCg1Yk/giphy.gif",
+      "title": "Cante comigo o hino: \"Esse meu jeito de viver, ninguém nunca foi igual, a minha ____ é fazer, o bem vencer o mal...\"",
+      "description": "Pode se empolgar, mas não esquece de completar!",
+      "answer": 1,
+      "alternatives": [
+        "missão",
+        "vida",
+        "programação"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/7ISIRaCMrgFfa/giphy.gif",
+      "title": "Qual desses é um ataque do Pikachu?",
+      "description": "Não me vai errar essa!",
+      "answer": 2,
+      "alternatives": [
+        "Faísca do trovão",
+        "Choque do relâmpago",
+        "Choque do trovão"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/1m2NzgMlMaWFq/giphy.gif",
+      "title": "Prepare-se para a encrenca! Encrenca em dobro!",
+      "description": "E lá vem eles... Quem? Meowth! É isso aí!",
+      "answer": 0,
+      "alternatives": [
+        "Jessie e James",
+        "Jesse e James",
+        "Diessy e Diemes"
+      ]
+    },
+    {
+      "image": "https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season01/season01_ep35_ss01.jpg",
+      "title": "Quem é esse Pokémon?",
+      "description": "Bem parecido!",
+      "answer": 0,
+      "alternatives": [
+        "Ditto",
+        "Pikachu",
+        "Dichu"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/DRfu7BT8ZK1uo/giphy.gif",
+      "title": "Quem são esses Pokémon?",
+      "description": "Tenho que admitir que nem eu sei, então me fale cinco. Ah, não vale usar a Pokédex =)",
+      "answer": 0,
+      "alternatives": [
+        "Blaziken, Pikachu, Cyndaquil, Entei e Mewtwo",
+        "Togepi, Quilava, Bulbasaur, Entei e Mewtwo",
+        "Staryu, Milotic, Charmander, Squirtle e Pikachu"
+      ]
+    }
+  ],
+  "external": [
+    "https://aluraquiz-css.omariosouto.vercel.app/",
+    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#3465af",
+      "secondary": "#ee4035",
+      "mainBg": "#0c0c0c9e",
+      "contrastText": "#ffcb05",
+      "wrong": "#FF5722",
+      "success": "#4CAF50"
+    },
+    "borderRadius": "4px"
+  }
+}
