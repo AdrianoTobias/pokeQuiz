@@ -115,7 +115,7 @@ export default function Home() {
         </Widget>
         <Footer
           as={motion.footer}
-          transition={{ delay: 0.5, duration: 0.5 }}
+          transition={{ delay: 0.8, duration: 0.5 }}
           variants={{
             show: { opacity: 1 },
             hidden: { opacity: 0 },
